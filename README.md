@@ -23,13 +23,13 @@ The Sudoku solution consists of the following projects:
 Add a reference for the SudokuLib DLL to your project, and the following `using` to the top of your .cs file:
 
 ```csharp
-    using PendleCodeMonkey.SudokuLib;
+	using PendleCodeMonkey.SudokuLib;
 ```
 
 The Sudoku Solver functionality can then be invoked as follows:
 
 ```csharp
-    Sudoku sudoku = new Sudoku();
+	Sudoku sudoku = new Sudoku();
 
 	string puzzle = "-96-4--3--5782----1--9--5----9-1---85-------24---9-6----4--3--1----7926--2--5-98-";
 	sudoku.InitializeBoard(puzzle);
