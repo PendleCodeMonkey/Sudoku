@@ -48,7 +48,7 @@ The `Solve` method returns a tuple containing the following values:
 
 <br>
 
-The string that is used to initialize the puzzle (and also the solution string that is returned by the Solve method) should contain 81 characters (one for each of the 81 squares on the Sudoke puzzle) with
+The string that is used to initialize the puzzle (and also the solution string that is returned by the Solve method) should contain 81 characters (one for each of the 81 squares on the Sudoku puzzle) with
 the first character corresponding to the top left square on the puzzle, and then working left to right along each row (from the top row down to the bottom row) until the last character (which corresponds
 to the square in the bottom right corner of the puzzle).  
 In the initialization string, a dash '`-`' is used to represent an empty square at the corresponding position on the puzzle.
